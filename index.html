@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MIS XV AMIR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/estilo.css" rel="stylesheet" type="text/css"/>
+        <link href="CSS/animaciones.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+        <link href="CSS/emergente.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="loading">
+            Cargando...
+        </div>
+
+        <section id="inicio" class="home">
+            <header class="in-flex" >
+                <img style="filter: blur(1px); " src="IMG/Portada/fondo.jpg">
+                <div class="imagen-texto texto-animado">
+                    <pre >YAYA FEST</pre><p style='color:#fff'>31.05.2025</p> 
+                </div>
+            </header>
+
+            <div>
+                <div style='text-align: center; align-items: center; margin:10px; '>   
+                    <audio id="reproductor" controls loop>
+                        <source src="AUDIO/song1.ogg" type="audio/ogg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+
+                </div>
+
+                <div style="min-height: 300px; display: flex; justify-content: center; align-items: center; text-align: center;" class="cuadro sombra popins-regular">
+                    <div class="animado">
+                        <p class='charm-bold animado' style='font-size: 25px'>Acompañanos a celebrar</p> 
+                        <p class="popins-regular" style="margin: 5px; font-size: 18px; color: #687c59;">
+                            Los momentos más felices de mi vida
+                            se vuelven aún más especiales cuando tengo
+                            la dicha de compartirlos con mis familiares
+                            y amigos más queridos.<br><br>
+                            ¡Estoy celebrando mi cumpleaños
+                            y tu presencia me haría muy feliz!
+                        </p>
+                    </div>     
+                </div>
+
+                <div style='text-align: center; align-content: center'>
+
+                </div>
+
+                <div class="caja sombra" style='text-align: center;'>
+
+                    <img class="animado" src="IMG/yayita.jpg" style="width: 100%; height: 100%;">
+                </div>
+
+                <div style=" text-align: center; align-items: center; margin-bottom: 0;" class="cuadro sombra popins-regular">
+                    <img src="IMG/INV.png" style="width: 100%; height: 120%;" >
+                    <div class="cuadroFondo sombra" style='text-align: center;'>
+                        <div id="contador" class='animado' style="margin-top: 4; display: flex; gap: 5%; justify-content: center; font-size: 23px; font-weight: 700; color: #fff;">
+                            <div>
+                                <span id="dias"></span><br>
+                                <span>Días</span>
+                            </div>
+                            <div>
+                                <span id="horas"></span><br>
+                                <span>Horas</span>
+                            </div>
+                            <div>
+                                <span id="minutos"></span><br>
+                                <span>Min.</span>
+                            </div>
+                            <div>
+                                <span id="segundos"></span><br>
+                                <span>Seg.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div style='text-align: center; align-items: center; padding:5%;'>
+                    <p class='charm-bold sombraT' style='margin-top:5%; font-size: 30px; color: #9d8551;'>¿DÓNDE?</p>
+                    <br>
+                    <img src="IMG/catedral.gif" style="width: 100%; height: 65%;" >
+
+                    <!-- Caja de Información -->
+                    <div id='cajainfo' style="min-height: 300px; text-align: center; align-items: center; margin: 0; margin-top: 1%;" class="cuadro sombra popins-regular">
+
+                        <!-- Título por encima de la caja de info -->
+                        <div id='titulo' style='position: relative; margin-top: -50px;  padding: 4px;' class='animado caja sombra'>
+                            <p class='charm-bold sombraT' style='font-size: 30px; color: #fff;'>Parroquia</p>
+                            <p class='charm-bold sombraT' style='font-size: 30px; color: #fff;'>San Rafael Guizar y Valencia</p>
+                        </div>
+
+                        <div class='desenfocado'>
+                            <p class='charm-regular sombraSuave' style='font-size: 25px;'>MISA</p>
+                            <p class='charm-regular sombraSuave' style='font-size: 25px;'>HORA:  <span style="color: #687c59;">12:00PM</span></p>
+                            <br>
+                            <p class='charm-regular sombraSuave' style='font-size: 25px; '>DIRECCIÓN</p>
+                            <p class='charm-regular sombraSuave' style='font-size: 25px; color: #687c59;'>Tlaxcala 4, Sta Leticia, 94476 Córdoba, Ver.</p>
+                            <br>
+                            <a href="https://maps.app.goo.gl/CmrwGxRS1nGnvAJc7" class="boton-enlace">VER DIRECCIÓN</a>
+                        </div>
+                    </div>
+                </div>
+                <div style='text-align: center; align-items: center; padding:5%;'>
+
+                    <img src="IMG/finca.gif" style="width: 100%; height: 65%;" >
+
+                    <!-- Caja de Información -->
+                    <div id='cajainfo' style="min-height: 300px; text-align: center; align-items: center; margin: 0; margin-top: 1%;" class="cuadro sombra popins-regular">
+
+                        <!-- Título por encima de la caja de info -->
+                        <div id='titulo' style='position: relative; margin-top: -50px;  padding: 4px;' class='animado caja sombra'>
+                            <p class='charm-bold sombraT' style='font-size: 30px; color: #fff;'>Rancho</p>
+                            <p class='charm-bold sombraT' style='font-size: 30px; color: #fff;'>Shangri-La 2</p>
+                        </div>
+
+                        <div class='desenfocado'>
+                            <p class='charm-regular sombraSuave' style='font-size: 25px;'>FIESTA</p>
+                            <p class='charm-regular sombraSuave' style='font-size: 25px;'>HORA:  <span style="color: #687c59;">2:00PM</span></p>
+                            <br>
+                            <p class='charm-regular sombraSuave' style='font-size: 25px; '>DIRECCIÓN</p>
+                            <p class='charm-regular sombraSuave' style='font-size: 25px; color: #687c59;'>Av. San Marcial 82 <br> Sta Leticia, 94476 Córdoba, Ver.</p>
+                            <br>
+                            <a href="https://maps.app.goo.gl/RYvJJkJqsPJuXsMM7" class="boton-enlace">VER DIRECCIÓN</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div  class='caja' >
+                    <img class="animado" src="IMG/yayita3.jpg" style="width: 100%; height: 100%;">
+                </div>
+
+                <div style='margin:15%; text-align: center; align-content: center' class="animado">
+                    <p class='charm-bold sombraT' style='font-size: 40px; color: #9d8551;'>Regalos</p>
+                    <br>
+                    <p class='popins-regular' style="font-size: 18px; color: #fff;">
+                        El mejor regalo que me puedes dar es tu presencia 
+                        pero si algo me quieres regalar lo puedes hacer en efectivo 
+                        <br><br>
+                        En la fiesta encontraras una caja y sobres
+                        <br><br>
+                        Tambien puedes realizar un deposito</p>
+                    <p style='font-size: 18px; color: #9d8551;'>4775 xxxx xxxxx xxxx</p>
+                    <br><br>
+                    <p class='popins-regular' style="font-size: 18px; color: #fff;"> Muchas Gracias!!
+                    </p>
+                </div>
+                <div style="height: 400px; margin-top:0;" class='desenfoque ' >
+                    <img id='relleno' src="IMG/yayita4.jpg" style="width: 100%; height: 100%;  object-fit: cover; object-position: center 20%;" >
+                </div>
+                <div class="popins-regular sombraSuave" style="text-align: center; margin: 20px; font-size: 18px; color: #fff;">
+                    <p>Te espero ahi.</p>
+                </div>
+
+
+
+                <div class="sombra" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100px; width: 100%; margin-bottom: 0;">
+                    <p class="charm-bold sombraSuave" style="font-size: 20px; color: #fff;">YAYA FEST</p>
+                    <p class="charm-bold sombraSuave" style="font-size: 20px; color: #fff;">31. 05. 25</p>
+                </div>
+
+                <div class="modal" id="modal">
+                    <div class="modal-content">
+                        <H2>ACOMPAÑANOS A CELEBRAR CON YAYITA</H2>
+                        <br> 
+                        <img src="IMG/yayita.jpeg" style="width: 80%; height: 80%" onclick="startPage()">
+                        <br>
+                        <p>Haz clic para empezar</p>
+                    </div>
+                    <div class="modal-background"></div>
+                </div>
+
+            </div>
+
+
+        </section>
+        <script src="JS/Emergente.js" type="text/javascript"></script>
+        <script src="JS/Funciones.js" type="text/javascript"></script>
+    </body>
+</html>
